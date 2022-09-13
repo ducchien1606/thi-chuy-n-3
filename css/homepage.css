@@ -1,0 +1,181 @@
+/*style.css*/
+@media only screen
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+ 
+}
+body {
+    background: #e0dddd;
+    /*background-size: 1902px 941px;*/
+}
+header.header {
+    display: flex;
+    background-color: white;
+    border: solid 1px #80808026;
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;    
+    position: fixed;
+}
+ul#main_menu{
+    background: white;
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+    width: 60%;
+}
+ul#find{
+    background: white;
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+    width: 20%;
+}
+ul#more{
+    background: white;
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+    width: 20%;
+}
+li#\31 {
+    color: white;
+    width: 20%;
+}
+li#\32 {
+    color: white;
+    width: 30%;
+}
+a {
+    color: black;
+}
+img#suit {
+    height: 900px;
+    width: 100%;
+}
+input[type="text"] {
+    margin-left: 110px;
+    border: solid 2px black;
+}
+.mes {
+    position: fixed;
+    bottom: 10px;
+    right: 0;
+}
+
+img#phone {
+    width: 50px;
+    height: 50px;
+}
+img#messenger {
+    width: 50px;
+    height: 50px;
+   
+}
+center {
+    font-size: 50px;
+    margin: 50px;
+    font-weight: bold;
+}
+
+.container1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    grid-template-areas:
+        "img header"
+        "img main-content";
+    border: 0px solid #e0dddd;
+    grid-column-gap: 30px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+img#gentlemen {
+    width: 100%;
+}
+aside.img {
+    grid-area: img;
+}
+
+section.header {
+    grid-area: header;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+main.main-content {
+    grid-area: main-content;
+    font-size: 20px
+}
+
+img#luxury {
+    width: 100%;
+}
+.container2 {
+    margin-top: 120px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 120px;
+}
+
+img.img1 {
+    width: 100%;
+}
+
+.container3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    grid-template-areas:
+        "header3 img"
+        "main-content3 img";
+    border: 0px solid #e0dddd;
+    grid-column-gap: 30px;
+    margin-right: 100px;
+    margin-left: 100px;
+} 
+
+section.header3 {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: end;
+}
+
+main.main-content3 {
+    font-size: 20px;
+    text-align: justify;
+}
+
+div#container {
+    margin-top: 120px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 120px;   
+    display: flex;
+}
+img#img2 {
+    width: 50%;
+}
+img#img3 {
+    width: 50%;
+}
+img#img4 {
+    width: 50%;
+}
+img#img5 {
+    width: 50%;
+}
+ul#in4 {
+    display: flex;
+    gap: 100px;
+    margin-right: -190px;
+    margin-left: 55px;
+}
+table#tab1 {
+    width: 33.33%;
+}
+th {
+    text-align: inherit;
+}

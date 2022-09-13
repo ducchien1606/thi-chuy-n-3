@@ -1,0 +1,152 @@
+/*login*/
+@media only screen
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+ 
+}
+body {
+    background: #e0dddd;
+    /*background-size: 1902px 941px;*/
+}
+header.header {
+    display: flex;
+    background-color: white;
+    border: solid 1px #80808026;
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;    
+    position: fixed;
+}
+ul#main_menu{
+    background: white;
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+    width: 60%;
+}
+ul#find{
+    background: white;
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+    width: 20%;
+}
+ul#more{
+    background: white;
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+    width: 20%;
+}
+li#\31 {
+    color: white;
+    width: 20%;
+}
+li#\32 {
+    color: white;
+    width: 30%;
+}
+a {
+    color: black;
+}
+input[type="text"] {
+    margin-left: 110px;
+    border: solid 2px black;
+}
+.mes {
+    position: fixed;
+    bottom: 10px;
+    right: 0;
+}
+
+img#phone {
+    width: 50px;
+    height: 50px;
+}
+img#messenger {
+    width: 50px;
+    height: 50px;   
+}
+
+form.login_form {
+    /*background-color: yellow;*/
+    width: 35%;
+    position: fixed;
+    /*top: 0px;*/
+    right: 490px;
+    margin-top: 70px;
+}
+
+img#suit {
+    width: 100%;
+    height: 900px;
+}
+
+input[type="username"] {
+    border: 2px solid black;
+    width: 350px;
+    height: 40px;
+}
+
+input[type="password"] {
+    width: 350px;
+    height: 40px;
+    border: 2px solid black;
+    margin-top: 20px;
+}
+
+a#forgorpassword {
+    font-size: 20px;
+    color: white;
+}
+
+a#register {
+    font-size: 20px;
+    color: white;
+}
+
+button#login {
+    height: 30px;
+    width: 120px;
+}
+
+button#facebook {
+	width: 350px;
+    height: 40px;
+    border: 2px solid black;
+}
+
+button#google {
+	width: 350px;
+    height: 40px;
+    border: 2px solid black;
+    margin-top: 20px;
+}
+
+button#zalo {
+	width: 350px;
+    height: 40px;
+    border: 2px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+	
+h1 {
+    color: white;
+    font-weight: bold;
+}
+
+
+ul#in4 {
+    display: flex;
+    gap: 100px;
+    margin-right: -190px;
+    margin-left: 55px;
+}
+table#tab1 {
+    width: 33.33%;
+}
+th {
+    text-align: inherit;
+}
